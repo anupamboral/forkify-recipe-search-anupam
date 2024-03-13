@@ -136,6 +136,9 @@ const controlAddRecipe = async function (newRecipe) {
 /**
  * this init function will be called at begginging when our page first loads then using this initialisation function we pass this controller functions to the views so they can use these.
  */
+const welcomeUser = function () {
+  console.log(`welcome to our application`);
+};
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
@@ -144,5 +147,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  welcomeUser();
 };
 init();
