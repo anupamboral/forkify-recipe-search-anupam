@@ -1,8 +1,8 @@
 # Forkify - Recipe searching website
 
-[Live link](https://forkify-recipe-search-anupam.netlify.app/)
+## **_[Live link](https://forkify-recipe-search-anupam.netlify.app/)_**
 
-## About Forkify
+**About Forkify**
 
 - Here you can search more than 20000 recipes
 - Add you custom recipe.
